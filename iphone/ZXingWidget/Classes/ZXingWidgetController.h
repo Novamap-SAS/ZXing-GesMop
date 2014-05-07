@@ -67,7 +67,7 @@
 - (BOOL)fixedFocus;
 - (void)setTorch:(BOOL)status;
 - (BOOL)torchIsOn;
-
+- (void)reset;
 @end
 
 @protocol ZXingDelegate
